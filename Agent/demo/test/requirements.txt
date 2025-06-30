@@ -1,0 +1,304 @@
+# AI Agent Demo 依赖包
+
+# Web框架
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+starlette==0.27.0
+
+# 数据验证和序列化
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# HTTP客户端
+httpx==0.25.2
+requests==2.31.0
+
+# 异步支持
+aiofiles==23.2.1
+aiohttp==3.9.1
+
+# 数据库
+sqlite3  # Python内置
+sqlalchemy==2.0.23
+alembic==1.13.1
+
+# 认证和安全
+PyJWT==2.8.0
+cryptography==41.0.8
+passlib[bcrypt]==1.7.4
+
+# 日志
+loguru==0.7.2
+
+# 配置管理
+python-dotenv==1.0.0
+toml==0.10.2
+pyyaml==6.0.1
+
+# 数据处理
+numpy==1.24.4
+pandas==2.1.4
+
+# 时间处理
+python-dateutil==2.8.2
+
+# 邮件发送
+smtplib  # Python内置
+email-validator==2.1.0
+
+# 文件处理
+pathlib  # Python内置
+glob2==0.7
+
+# JSON处理
+orjson==3.9.10
+
+# 环境变量
+os  # Python内置
+sys  # Python内置
+
+# 多线程/多进程
+threading  # Python内置
+asyncio  # Python内置
+concurrent.futures  # Python内置
+
+# 正则表达式
+re  # Python内置
+
+# 数学计算
+math  # Python内置
+random  # Python内置
+
+# 网络请求
+urllib3==2.1.0
+
+# 类型提示
+typing-extensions==4.8.0
+
+# 测试框架（开发依赖）
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+
+# 代码格式化（开发依赖）
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+
+# 类型检查（开发依赖）
+mypy==1.7.1
+
+# 文档生成（开发依赖）
+sphinx==7.2.6
+sphinx-rtd-theme==1.3.0
+
+# 性能监控
+psutil==5.9.6
+
+# 缓存
+cachetools==5.3.2
+
+# 序列化
+pickle  # Python内置
+json  # Python内置
+
+# 哈希
+hashlib  # Python内置
+hmac  # Python内置
+
+# Base64编码
+base64  # Python内置
+
+# UUID生成
+uuid  # Python内置
+
+# 时间处理
+time  # Python内置
+datetime  # Python内置
+
+# 枚举
+enum  # Python内置
+
+# 数据类
+dataclasses  # Python内置
+
+# 抽象基类
+abc  # Python内置
+
+# 集合
+collections  # Python内置
+
+# 迭代工具
+itertools  # Python内置
+
+# 函数工具
+functools  # Python内置
+
+# 操作符
+operator  # Python内置
+
+# 复制
+copy  # Python内置
+
+# 警告
+warnings  # Python内置
+
+# 追踪
+traceback  # Python内置
+
+# 检查
+inspect  # Python内置
+
+# 垃圾回收
+gc  # Python内置
+
+# 弱引用
+weakref  # Python内置
+
+# 上下文管理
+contextlib  # Python内置
+
+# 临时文件
+tempfile  # Python内置
+
+# 文件操作
+shutil  # Python内置
+
+# 压缩
+zipfile  # Python内置
+tarfile  # Python内置
+gzip  # Python内置
+
+# 网络
+socket  # Python内置
+
+# 子进程
+subprocess  # Python内置
+
+# 信号
+signal  # Python内置
+
+# 平台信息
+platform  # Python内置
+
+# 资源
+resource  # Python内置
+
+# 统计
+statistics  # Python内置
+
+# 十进制
+decimal  # Python内置
+
+# 分数
+fractions  # Python内置
+
+# 字符串
+string  # Python内置
+
+# 文本包装
+textwrap  # Python内置
+
+# 编解码
+codecs  # Python内置
+
+# 本地化
+locale  # Python内置
+
+# 获取选项
+getopt  # Python内置
+
+# 参数解析
+argparse  # Python内置
+
+# 配置解析
+configparser  # Python内置
+
+# 日志
+logging  # Python内置
+
+# 单元测试
+unittest  # Python内置
+
+# 文档测试
+doctest  # Python内置
+
+# 调试
+pdb  # Python内置
+
+# 性能分析
+cProfile  # Python内置
+profile  # Python内置
+timeit  # Python内置
+
+# 内存分析
+tracemalloc  # Python内置
+
+# 队列
+queue  # Python内置
+
+# 堆
+heapq  # Python内置
+
+# 二分查找
+bisect  # Python内置
+
+# 数组
+array  # Python内置
+
+# 字节数组
+bytearray  # Python内置
+
+# 内存视图
+memoryview  # Python内置
+
+# 类型
+types  # Python内置
+
+# 关键字
+keyword  # Python内置
+
+# 标记
+token  # Python内置
+
+# 标记化
+tokenize  # Python内置
+
+# 抽象语法树
+ast  # Python内置
+
+# 符号表
+symtable  # Python内置
+
+# 编译
+compileall  # Python内置
+
+# 反汇编
+dis  # Python内置
+
+# 导入
+importlib  # Python内置
+
+# 包工具
+pkgutil  # Python内置
+
+# 模块查找
+modulefinder  # Python内置
+
+# 运行路径
+runpy  # Python内置
+
+# 站点
+site  # Python内置
+
+# 用户
+user  # Python内置
+
+# 内建
+builtins  # Python内置
+
+# 主模块
+__main__  # Python内置
+
+# 未来
+__future__  # Python内置
